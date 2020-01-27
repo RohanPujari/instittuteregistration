@@ -1,0 +1,17 @@
+
+
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+
+    <div id="form"  class="inst-name">
+        <label >Institution Code</label><br>
+        <input  type="text" size="35" class="file-control" formControlName="instituteCode" required><br><br>
+        <label class ="Institution-Name">Password</label><br>
+        <input type="password" size="35" class="file-control" formControlName="setPassword" required><br>
+
+       <button>Login</button>
+    </div>
+
+
+</form>
+
+
